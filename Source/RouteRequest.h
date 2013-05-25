@@ -5,6 +5,7 @@
 
 @property (nonatomic, readonly) NSDictionary *headers;
 @property (nonatomic, readonly) NSDictionary *params;
+@property (nonatomic, readonly) HTTPMessage *message;
 
 - (id)initWithHTTPMessage:(HTTPMessage *)msg parameters:(NSDictionary *)params;
 - (NSString *)header:(NSString *)field;

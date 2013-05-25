@@ -6,6 +6,7 @@
 }
 
 @synthesize params;
+@synthesize message;
 
 - (id)initWithHTTPMessage:(HTTPMessage *)msg parameters:(NSDictionary *)parameters {
 	if (self = [super init]) {
